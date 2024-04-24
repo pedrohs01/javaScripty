@@ -1,0 +1,22 @@
+deservover um app web para calcular o tipo de
+comustivel que e mais viavel
+
+Segundo a montadoras e mais vantajoso abastecer com etanol
+se o litro do entanol custar ate 70% do valor do litro da 
+gasolina 
+
+Variaveis:
+etanol, gasolina
+
+entrada:
+etanol, gasolina
+
+processamento
+if (etnalo < 0.7 * gasolina) {
+    //etanol
+} else {
+    //gasolina
+}
+
+saida:
+etanol ou gasolina

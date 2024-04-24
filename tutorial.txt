@@ -1,0 +1,31 @@
+Aula 1...............................................................................................................................................
+Na linguagem js o ; e opcional
+Podemos usar "" ou '' só não Podemos misturar "'
+console.log //Escrever no terminal
+console.clear() //limpar a tela
+Dicas "" Texto '' Impostações 
+
+nas estrturas de contrple condicional e nos lanços de repetição
+Podemosc omitir as chaves, porem so uma linha de codigo e vincula
+Dicas: nao omitir as chaves 
+
+Variaveis na linguagem JS são dinamicamente tipadas 
+somente 3 tipos (string, number e boolean)
+para declrar uma constante ou Variaveil podemos usar:
+const, var e let 
+var (obsoleto - não usar, pois pode gerar bug no projeto)
+
+string :
+.repace(",",",") //substitui um caractere por outro
+
+concatenação (unir texto com conteúdo de Variaveis)
++ (evitar o uso devido a tipagem dinãmico)
+'${} (mais usado na linguagem JS)
+
+number:
+
+number(converte para o tipo numerico)
+number.isinteger (verifica se um numero e inteiro ou nao)
+
+BOOLEANS
+So
