@@ -3,8 +3,11 @@
  * Sintaxe básica da linguagem
  */
 
+// inportaçao de pacotes
+const colors = require('colors')
+
 //sentença
-console.log ("hello word")
+console.log ("hello word".blue)
 
 //blocos
 {

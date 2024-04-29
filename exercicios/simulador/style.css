@@ -1,0 +1,57 @@
+/** 
+Folha de estilo - simulador 
+@author PEDRO
+*/
+
+body {
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+img {
+    max-width: 100%;
+}
+
+/** cabeçalho */
+header h1 {
+    color: red;
+    text-align: center;
+}
+
+/** Menu */
+nav {
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: red;
+    overflow: hidden; /*esconde a barra de rolangem*/
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: blue;
+    transition: all 0.4s;
+}
+
+/* reodape */
+footer {
+    width: 100%;
+    background-color: red;
+    color: white;
+    padding: 5px 0px;
+    text-align: center;
+}

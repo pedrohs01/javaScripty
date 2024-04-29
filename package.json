@@ -1,0 +1,23 @@
+{
+  "name": "javascripty",
+  "version": "1.0.0",
+  "description": "Tutorial de javaScirpt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrohs01/javaScripty.git"
+  },
+  "author": "pedro henrique",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pedrohs01/javaScripty/issues"
+  },
+  "homepage": "https://github.com/pedrohs01/javaScripty#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "readline-sync": "^1.4.10"
+  }
+}

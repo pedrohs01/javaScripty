@@ -1,31 +1,121 @@
-Aula 1...............................................................................................................................................
-Na linguagem js o ; e opcional
-Podemos usar "" ou '' só não Podemos misturar "'
-console.log //Escrever no terminal
-console.clear() //limpar a tela
-Dicas "" Texto '' Impostações 
+[16:30] CAMILA YUKARI JODAI
+na linguagem JS o ; é opcional
 
-nas estrturas de contrple condicional e nos lanços de repetição
-Podemosc omitir as chaves, porem so uma linha de codigo e vincula
-Dicas: nao omitir as chaves 
+podemos usar "" ou '' só não podemos misturar "'
 
-Variaveis na linguagem JS são dinamicamente tipadas 
-somente 3 tipos (string, number e boolean)
-para declrar uma constante ou Variaveil podemos usar:
-const, var e let 
-var (obsoleto - não usar, pois pode gerar bug no projeto)
+console.log -> escrever no terminal
 
-string :
-.repace(",",",") //substitui um caractere por outro
+console.clear() -> limpar a tela do terminal
 
-concatenação (unir texto com conteúdo de Variaveis)
-+ (evitar o uso devido a tipagem dinãmico)
-'${} (mais usado na linguagem JS)
+dicas:
 
+"" -> texto
+
+'' -> importações
+ 
+nas estruturas de controle condicional e nos laços de repetições podemos omitis as chaves, porém só uma linha de código é vinculada
+
+dica: não omitir as chaves
+ 
+------------------------
+
+variáveis no JS são dinamicamente tipadas e somente 3 tipos (string, number e boolean)
+
+Para declarar uma constante podemos usar const, var e let
+
+var(obsoleto - não usar pois pode gerar bug)
+ 
+ 
+strings:
+
+.replace(".",";") -> substitui um caractere por outro
+ 
+concatenação (unit texto com conteudo de variaveis)
+
++ (evitar o uso devido a tipagem dinÂmica)
+
+`${}` (mais usado na linguagem JS)  
+ 
 number:
 
-number(converte para o tipo numerico)
-number.isinteger (verifica se um numero e inteiro ou nao)
+Number (converte p o tipo numerico)
 
-BOOLEANS
-So
+Number.isInteger -> verifica se é inteiro ou nao
+ 
+booleans: 
+
+só admitem 2 valores: true/false
+ 
+----------------------------------------------------------------------------------------------------------------------------------------
+
+AULA 2
+
+Operadores aritméticos
+
+ATENÇÃO a regra de precedência:
+
+1º parenteses
+
+2º multiplicação
+
+3º divisão
+
+4º adição
+
+5º divisão
+ 
+ComparadoreS:
+
+OBSERVÇÃO IMPORTANTE:
+
+não usar os comparadores == != (riscos devido a tigadem dinÂmica)
+ 
+------------------------------------------
+ 
+NPM(Node Package Manager)
+
+Gerenciador de pacotes node (pacotes com funcionalidades que podem ser adicionadas ao node)
+
+Para gerenciar(versão, atualizações etc) os pacotes node, é necessário configurar o package.json
+ 
+json(JavaScript Object Notation)
+
+npm -version
+
+npm ls (listar pacotes instalados)
+
+npm i (instalar pacote)
+
+npm r (remover um pacote)
+ 
+obs: os pacotes são instalados no projeto
+ 
+passo 1: criar o arquivo package.json
+
+npm init
+ 
+Repositório de pacotes
+https://www.npmjs.com/
+ 
+---------------------------------------------
+
+exercício 
+
+Criar no console JS um app para calcular a porcentagem, usando a regra de 3 conforme modelo:
+ 
+10% de 200 = 20
+
+X      Y    valor
+ 
+Variáveis:
+
+3 variáveis -> x, y, valor
+ 
+Processamento:
+
+valor = (x * y) / 100
+ 
+Saída:
+
+valor
+npm | Home

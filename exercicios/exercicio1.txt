@@ -20,3 +20,11 @@ if (etnalo < 0.7 * gasolina) {
 
 saida:
 etanol ou gasolina
+*********************************************************
+
+Funçao e um bloco de codigo reutilizavel
+funçao simples:
+
+function nome() {
+    
+}
