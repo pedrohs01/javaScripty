@@ -12,6 +12,11 @@ img {
     max-width: 100%;
 }
 
+.container {
+    margin: 50px 0px;
+    text-align: center;
+}
+
 /** cabeçalho */
 header h1 {
     color: red;
@@ -47,6 +52,15 @@ nav ul li a:hover {
     transition: all 0.4s;
 }
 
+/*conteudo*/
+#sw1 {
+    float: left;
+}
+
+#sw2 {
+    float: right;
+}
+
 /* reodape */
 footer {
     width: 100%;
@@ -54,4 +68,18 @@ footer {
     color: white;
     padding: 5px 0px;
     text-align: center;
+}
+
+/*layout para telas grandes*/
+@media (min-width: 576px) {
+    header h1 {
+        text-align: left;
+    }
+    .container{
+        text-align: left;
+    }
+
+    #sw2 {
+        float: left;
+    }
 }
