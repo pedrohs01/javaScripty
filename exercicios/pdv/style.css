@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    background-color: rgb(163, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+input[type="reset"] {
+    margin-bottom: 20px;
+}
+
+.containerflex {
+    margin-top: 95px;
+    text-align: center;
+}
+
+input {
+    width: 150px;
+    height: 30px;
+    font-size: 1em;
+}

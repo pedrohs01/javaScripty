@@ -1,121 +1,246 @@
-[16:30] CAMILA YUKARI JODAI
-na linguagem JS o ; é opcional
-
-podemos usar "" ou '' só não podemos misturar "'
-
-console.log -> escrever no terminal
-
-console.clear() -> limpar a tela do terminal
-
-dicas:
-
-"" -> texto
-
-'' -> importações
+[14:52] JOAO VITOR ANDRADE DE MIRANDA
+Aula 1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
  
-nas estruturas de controle condicional e nos laços de repetições podemos omitis as chaves, porém só uma linha de código é vinculada
+Na linguagem JS o ; (ponto e vírgula) é opcional.
 
-dica: não omitir as chaves
+Pode-se utilizar "" ou '' só não pode combiná-los.
+
+Dica: "" para textos e '' para importações.
  
-------------------------
-
-variáveis no JS são dinamicamente tipadas e somente 3 tipos (string, number e boolean)
-
-Para declarar uma constante podemos usar const, var e let
-
-var(obsoleto - não usar pois pode gerar bug)
+Nas estruturas de controle condicional e nos laços de repetições pode-se omitir as chaves, porém só uma linha de código será vinculada.
  
+Variáveis na linguagem JS são dinamicamente tipadas e somente 3 tipos: (string, number e boolean) 
+
+Para declarar uma constante ou variável podemos usar: const, var, let
+
+var É OBSOLETO (!NÃO UTILIZAR!)
  
-strings:
+Sintaxe JS:
 
-.replace(".",";") -> substitui um caractere por outro
+    console.log // printar no terminal
+
+    console.clear() // limpar o terminal
  
-concatenação (unit texto com conteudo de variaveis)
+Strings:
 
-+ (evitar o uso devido a tipagem dinÂmica)
-
-`${}` (mais usado na linguagem JS)  
+    .replace (",",".") // substitui um caractere por outro
  
-number:
+Concatenação // unir texto com conteúdo de variáveis:
 
-Number (converte p o tipo numerico)
+    + // Evitar o uso devido a tipagem dinâmica
 
-Number.isInteger -> verifica se é inteiro ou nao
+    `${}` // Mais usado na linguagem JS
  
-booleans: 
+Numbers:
 
-só admitem 2 valores: true/false
+Number // converte para o tipo numérico
+
+Number.isInteger // Verifica se o número é inteiro
+
+.toFixed(x) // Formatar número de acordo com a quantidade de casas decimais
  
-----------------------------------------------------------------------------------------------------------------------------------------
+Booleans:
 
-AULA 2
-
-Operadores aritméticos
-
-ATENÇÃO a regra de precedência:
-
-1º parenteses
-
-2º multiplicação
-
-3º divisão
-
-4º adição
-
-5º divisão
+Só admitem dois valores // true e false
  
-ComparadoreS:
-
-OBSERVÇÃO IMPORTANTE:
-
-não usar os comparadores == != (riscos devido a tigadem dinÂmica)
+Aula 2 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
  
-------------------------------------------
+Operadores Aritméticos
+
+ATENÇÃO à regra de precedência:
+
+1º) Parênteses
+
+2º) Multiplicação
+
+3º) Divisão
+
+4º) Soma
+
+5º) Subtração
  
-NPM(Node Package Manager)
+Comparadores:
 
-Gerenciador de pacotes node (pacotes com funcionalidades que podem ser adicionadas ao node)
+Observação importante:
 
-Para gerenciar(versão, atualizações etc) os pacotes node, é necessário configurar o package.json
+NÃO usar os comparadores == != (riscos devido a tipagem dinâmica)
+ 
+---------------------------
+
+NPM (Node Package Manager)
+
+Gerenciador de pacotes node (pacotes com funcionalidade que podem ser adicionadas ao node)
+
+Para gerenciar (versão, atualizações, etc.) os pacotes node, é necessário configurar o package.json
  
 json(JavaScript Object Notation)
 
-npm -version
+npm -versiom
 
-npm ls (listar pacotes instalados)
+npm ls // listar pacotes instalados
 
-npm i (instalar pacote)
+npm i // instalar um pacote
 
-npm r (remover um pacote)
+npm r // remover um pacotes
  
-obs: os pacotes são instalados no projeto
+Observação: os pacotes são instalados no projeto(raíz)
  
-passo 1: criar o arquivo package.json
+Passo 1 - Criar o arquivo package.json
 
 npm init
  
-Repositório de pacotes
-https://www.npmjs.com/
+Repositório de Pacotes: https://www.npmjs.com/
  
----------------------------------------------
+-----------------
 
-exercício 
+Exercício:
 
-Criar no console JS um app para calcular a porcentagem, usando a regra de 3 conforme modelo:
- 
+Criar no console JS um app para calcular a porcentagem, usando regra de 3, conforme modelo:
+
 10% de 200 = 20
 
-X      Y    valor
+x       Y    valor
  
-Variáveis:
+Variáveis: 3 variáveis = x y valor
 
-3 variáveis -> x, y, valor
+Entrada: x , y
+
+Processamento: valor = (x * y) / 100
+
+Saída: valor
+
+-----------------
+
+Funções:
+
+Função é um bloco de código reutilizável
+
+Função Simples:
  
-Processamento:
+function nome() {
 
-valor = (x * y) / 100
+}
  
-Saída:
+Aula 3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ 
+Função é um bloco de código reutilizável
+ 
+Função Simples:
 
-valor
-npm | Home
+function nome() {
+
+}
+ 
+Função com Retorno:
+
+function nome() {
+
+    return
+
+}
+ 
+Função Anônima:
+
+const nome = function() {
+ 
+}
+ 
+let nome = function() {
+
+}
+ 
+Funções em JavaScript moderno podem ser simplificadas
+ 
+___________________________________________________________
+
+obs:
+
+typeof // Verifica a tipagem dinâmica
+
+primitivos (string, number, boolean)
+
+function
+
+object
+ 
+Aula 4 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ 
+POO - Programação Orientada a Objetos
+ 
+Pilares:
+
+- Abstração
+
+- Herança
+
+- Polimorfismo
+
+- Encapsulamento (Segurança)
+ 
+ATENÇÃO!
+
+Toda classe modelo inicia com letra maiúscula
+ 
+IMPORTANTE!!!
+
+new  // indica a criação de um objeto
+
+this  // quando se refere a ele mesmo
+
+super // indica o uso de atributos da classe pai
+ 
+polimorfismo // é a mudança de comportamento de um método já existente
+
+*** ATENÇÃO! o Polimorfismo não cria outro método, apenas modifica o comportamento do método existente.
+
+Obrigatório usar o mesmo nome de método da classe pai ***
+ 
+Dica:
+
+Class Classe {} // cria uma classe modelo
+
+- O nome da classe sempre deve começar com uma letra maiúscula
+
+- Classe (biologia)
+
+- objeto (new) (substantivo)
+
+- atributos (variáveis) (adjetivos)
+
+- ações (métodos/funções) (verbos)
+ 
+Encapsulamento
+
+1º) Proteger a variável criando um modificador privado (Acesso exclusivo da classe ao qual pertence)
+
+2º) Criar uma função para obter o conteúdo da variável (get)
+
+3º) Criar uma função para gravar um dado na variável (set)
+ 
+No Js utiliza-se _ antes da variável para encapsular
+ 
+Aula 5 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ 
+No Js objetos podem ser criados sem uma classe modelo
+
+Estrutura de dados usando objetos
+
+Exemplos:
+
+- package.json
+
+- coleção do banco de dados (MongoDB)
+ 
+ATENÇÃO!!!
+
+Tipos de Js
+
+- string
+
+- number
+
+- boolean
+
+- function
+
+- object
