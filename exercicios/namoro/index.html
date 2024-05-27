@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de Namoro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pedido de Namoro</h1>
+        <form id="pedidoForm">
+            <label for="nome">Seu nome:</label>
+            <input type="text" id="nome" required>
+            <label for="nomeParceiro">Nome do(a) pretendente:</label>
+            <input type="text" id="nomeParceiro" required>
+            <label for="mensagem">Mensagem especial:</label>
+            <textarea id="mensagem"></textarea>
+            <div class="resposta">
+                <input type="radio" id="sim" name="resposta" value="sim" required>
+                <label for="sim">Sim</label>
+                <input type="radio" id="nao" name="resposta" value="nao" required>
+                <label for="nao">Não</label>
+            </div>
+            <button type="submit">Enviar Pedido</button>
+        </form>
+        <div id="resposta"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
