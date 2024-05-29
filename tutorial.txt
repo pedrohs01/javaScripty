@@ -245,4 +245,27 @@ Tipos de Js
 
 - object
 
-oi
+[14:13] CAMILA YUKARI JODAI
+-----------------------------------------------------------
+ 
+Plataforma Node
+
+Obs: ao clonar um repositório ou trabalhar em um outro PC é necessário reinstalar as bibliotecas
+
+presentes nas dependências do package.json
+ 
+npm install (digitar na raiz do projeto)
+ 
+------------------------------------------------------------
+ 
+Assincronismo 
+
+São métodos e funções que permitem ao JavaScript trabalhar multitarefas 
+
+- Banco de dados
+
+- Acesso a URLs (serviços de nuvem, web services, APIs etc)
+
+- Acesso ao disco do equipamento (HD, SSD etc)
+
+ heart 1
