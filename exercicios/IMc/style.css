@@ -1,56 +1,62 @@
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    font-family: sans-serif;
     margin: 0;
-}
-
-.calculator {
-    width: 300px;
+    padding: 0;
+   }
+   .container {
+    max-width: 500px;
+    margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.calculator h2 {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+   }
+   h1 {
     text-align: center;
-}
-
-.calculator div {
-    margin-bottom: 10px;
-}
-
-.calculator label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-.calculator input[type="number"],
-.calculator select {
-    width: 100%;
-    padding: 8px;
-    border-radius: 3px;
-    border: 1px solid #ccc;
-}
-
-.calculator button {
+   }
+   form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   label {
+    font-weight: bold;
+    margin-top: 10px;
+   }
+   input[type="number"],
+   input[type="text"] {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-.calculator button:hover {
-    background-color: #0056b3;
-}
-
-#resultado {
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+   }
+   input[type="button"],
+   input[type="reset"] {
+    width: 100%;
+    padding: 10px;
     margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(159, 159, 235);
+    color: white;
+    cursor: pointer;
+   }
+   input[type="button"]:hover,
+   input[type="reset"]:hover {
+    background-color: rgb(82, 82, 165);
+   }
+   .roleta {
+    margin-top: 30px;
     text-align: center;
-    font-weight: bold;
-}
+   }
+   h2 {
+    margin-bottom: 10px;
+   }
+   #status {
+    max-width: 200px;
+    margin: 0 auto;
+   }
+   
+   .caixa {
+    width: 150px;
+   }
+ 
